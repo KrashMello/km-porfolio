@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "¡Hola mundo! Soy Joel",
+    "description": "Una persona apasionada por el desarrollo web que busca siempre dar lo mejor. Me gusta ayudar en el crecimiento de las demás en el ámbito tecnológico, compartiendo mi conocimiento. En mis ratos libres disfruto de ver videos, escuchar musica y buscar información sobre las nuevas tecnologías y avances."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "list": [
+      {
+        "name": "Alcaldía de Iribarren",
+        "zone": "Lara, Venezuela",
+        "dateBegin": "May 2022",
+        "dateEnd": "Actualidad",
+        "task": [
+          "Implementar prácticas de workflow utilizando Git para gestionar las versiones de los sistemas, mejorando la productividad y el control de los mismos en un 100%.",
+          "Lidere el desarrollo del Sistema de responsabilidad por usuario, mejorando la automatización de la gestión para la revisión de los bienes y el gasto de papel en un 70%, utilizando las siguientes herramientas PostgreSQL para gestionar la base de datos y poder esquematizar la información y creación de procedimientos almacenados y vistas, haciéndola menos vulnerable, Nestjs para gestionar el microservicio back-end  y Nuxtjs gestiona el comportamiento y funcionalidad visual del sistema.",
+          "Desarrolle la bitácora a la base de datos con operadores triggers mejorando un 100% la monitorización y auditoria del sistema.",
+          "Implementación metodología scrum para el desarrollo del sistema."
+        ]
+      },
+      {
+        "name": "Kia Motors",
+        "zone": "Ecuador",
+        "dateBegin": "Jul 2023",
+        "dateEnd": "Nov 2023",
+        "task": [
+          "Desarrolle la funcionalidad de los componentes visuales.",
+          "Lidere el desarrollo de la landing page de ventas de autos llegando a alcanzar una mejora en las ventas de un 80%."
+        ]
+      },
+      {
+        "name": "Lácteos los Andes C.A",
+        "zone": "Lara, Venezuela",
+        "dateBegin": "Jul 2019",
+        "dateEnd": "Feb 2021",
+        "task": [
+          "Implementar prácticas de workflow utilizando Git para gestionar las versiones de los sistemas, mejorando la productividad y el control de los mismos en un 100%.",
+          "Lidere el desarrollo del Sistema de responsabilidad por usuario, mejorando la automatización de la gestión para la revisión de los bienes y el gasto de papel en un 70%, utilizando las siguientes herramientas PostgreSQL para gestionar la base de datos y poder esquematizar la información y creación de procedimientos almacenados y vistas, haciéndola menos vulnerable, Laravel para gestionar el back-end y front-end.",
+          "Implementé el framework Vue para la gestión de comportamientos de los componentes visuales"
+        ]
+      }
+    ]
+  }
+}

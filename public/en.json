@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "¡Hello World! I'm Joel",
+    "description": "A person passionate about web development that always seeks to give the best. I like to help in the growth of others in the technological field, sharing my knowledge. In my free time I enjoy watching videos, listening to music and looking for information about new technologies and advances."
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      {
+        "name": "Alcaldía de Iribarren",
+        "zone": "Lara, Venezuela",
+        "dateBegin": "May 2022",
+        "dateEnd": "Actualidad",
+        "task": [
+          "Implement workflow practices using Git to manage system versions, improving productivity and control by 100%.",
+          "Lead the development of the User Accountability System, improving management automation for asset review and paper expenditure by 70%, using the following tools PostgreSQL to manage the database to schematize information and create stored procedures and views, making it less vulnerable, Nestjs to manage the back-end microservice and Nuxtjs to manage the behavior and visual functionality of the system.",
+          "Develop the log to the database with triggers operators improving 100% the monitoring and auditing of the system.",
+          "Implementation of scrum methodology for system development."
+        ]
+      },
+      {
+        "name": "Kia Motors",
+        "zone": "Ecuador",
+        "dateBegin": "Jul 2023",
+        "dateEnd": "Nov 2023",
+        "task": [
+          "Develop the functionality of the visual components.",
+          "Lead the development of the car sales landing page, achieving an 80% improvement in sales."
+        ]
+      },
+      {
+        "name": "Lácteos los Andes C.A",
+        "zone": "Lara, Venezuela",
+        "dateBegin": "Jul 2019",
+        "dateEnd": "Feb 2021",
+        "task": [
+          "Implement workflow practices using Git to manage system versions, improving productivity and control by 100%.",
+          "Lead the development of the User Accountability System, improving management automation for asset review and paper waste by 70%, using the following tools PostgreSQL to manage the database and be able to schematize the information and creation of stored procedures and views, making it less vulnerable, Laravel to manage the back-end and front-end.",
+          "I implemented the Vue framework for behavior management of visual components."
+        ]
+      }
+    ]
+  }
+}
