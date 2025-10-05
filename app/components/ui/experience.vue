@@ -7,9 +7,7 @@ id="experience"
         <h2 class=" flex items-center gap-4 text-[#5E81AC] dark:text-[#88C0D0] text-3xl md:text-6xl font-normal">
           {{ data.title }}
           <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-              <path fill="currentColor" d="M3 20V7h6V4h6v3h6v13H3Zm7-13h4V5h-4v2Z" />
-            </svg>
+            <icons-case />
           </span>
         </h2>
       </header>
