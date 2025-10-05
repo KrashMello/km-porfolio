@@ -45,7 +45,7 @@ v-for="repo in repoData" :key="repo.id" :title="repo.name"
     </div>
     <div class="flex max-w-7xl mx-auto flex-wrap gap-5 w-full">
       <km-article
-title="Kia Landing" href="https://kiateconecta.com/kiaSuscripcion"
+title="Kia Landing" href="https://kia-page.vercel.app/kiaSuscripcion"
         description="Landing de suscripcion kia motors ecuador">
         <template #footer>
           <div class="w-full flex text-slate-200 items-center justify-between gap-2.5 text-xs">
