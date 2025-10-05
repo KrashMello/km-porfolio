@@ -30,11 +30,11 @@
         "dateBegin": "Jul 2019",
         "dateEnd": "Feb 2021",
         "task": [
-          "I optimized system version management by implementing **Git**, significantly improving **productivity** and **code control**.",
-          "I managed and designed **PostgreSQL databases**, including information schematization and the creation of **stored procedures** and **views**, strengthening **data security** and **integrity**.",
-          "I developed **Full Stack solutions** using the **Laravel framework** for backend and frontend management, contributing to the **integral functionality of web applications**.",
-          "I resolved **critical boot issues** in the **SAP quality service**, hosted on **openSUSE** and virtualized in **VMware**, ensuring **system operational continuity**.",
-          "I implemented the **Vue.js framework** for **user interface development**, enhancing **interactivity** and **user experience** through **dynamic visual components**."
+          "I optimized system version management by implementing Git, significantly improving productivity and code control.",
+          "I managed and designed PostgreSQL databases, including information schematization and the creation of stored procedures and views, strengthening data security and integrity.",
+          "I developed Full Stack solutions using the Laravel framework for backend and frontend management, contributing to the integral functionality of web applications.",
+          "I resolved critical boot issues in the SAP quality service, hosted on openSUSE and virtualized in VMware, ensuring system operational continuity.",
+          "I implemented the Vue.js framework for user interface development, enhancing interactivity and user experience through dynamic visual components."
         ]
       }
     ]
