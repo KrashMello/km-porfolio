@@ -12,20 +12,16 @@
         "dateBegin": "May 2022",
         "dateEnd": "Actualidad",
         "task": [
-          "Implementar prácticas de workflow utilizando Git para gestionar las versiones de los sistemas, mejorando la productividad y el control de los mismos en un 100%.",
-          "Lidere el desarrollo del Sistema de responsabilidad por usuario, mejorando la automatización de la gestión para la revisión de los bienes y el gasto de papel en un 70%, utilizando las siguientes herramientas PostgreSQL para gestionar la base de datos y poder esquematizar la información y creación de procedimientos almacenados y vistas, haciéndola menos vulnerable, Nestjs para gestionar el microservicio back-end  y Nuxtjs gestiona el comportamiento y funcionalidad visual del sistema.",
-          "Desarrolle la bitácora a la base de datos con operadores triggers mejorando un 100% la monitorización y auditoria del sistema.",
-          "Implementación metodología scrum para el desarrollo del sistema."
-        ]
-      },
-      {
-        "name": "Kia Motors",
-        "zone": "Ecuador",
-        "dateBegin": "Jul 2023",
-        "dateEnd": "Nov 2023",
-        "task": [
-          "Desarrolle la funcionalidad de los componentes visuales.",
-          "Lidere el desarrollo de la landing page de ventas de autos llegando a alcanzar una mejora en las ventas de un 80%."
+          "Lideré el desarrollo de un sistema de bienes, automatizando la gestión de inventario.",
+          "Optimicé la gestión de versiones de código mediante la implementación de Git, mejorando la productividad y el control de cambios del equipo.",
+          "Administré y diseñé bases de datos PostgreSQL, desarrollando esquemas, procedimientos almacenados y vistas para asegurar la integridad y seguridad de la información.",
+          "Desarrollé microservicios backend con NestJS y frontends con Nuxt.js, asegurando la funcionalidad y rendimiento de las aplicaciones.",
+          "Implementé un sistema de auditoría avanzado usando triggers en base de datos, lo que optimizó la monitorización y trazabilidad de las operaciones del sistema.",
+          "Apliqué la metodología Scrum para gestionar el ciclo de desarrollo, mejorando la eficiencia en la entrega de funcionalidades.",
+          "Administré y aseguré entornos de contenedores en servidores Fedora con Podman (incluyendo configuración rootless), garantizando el despliegue eficiente y la seguridad de las aplicaciones.",
+          "Diseñé y gestioné redes de contenedores para aplicaciones específicas, garantizando la escalabilidad y comunicación fluida de microservicios.",
+          "Realicé pruebas exhaustivas de funcionalidad y rendimiento, optimizando servidores para garantizar un alto desempeño y seguridad.",
+          "Implementé y administré un servidor GitLab Community Edition (CE) en Ubuntu, proporcionando una solución integral de gestión de código fuente para el equipo de desarrollo."
         ]
       },
       {
@@ -34,9 +30,11 @@
         "dateBegin": "Jul 2019",
         "dateEnd": "Feb 2021",
         "task": [
-          "Implementar prácticas de workflow utilizando Git para gestionar las versiones de los sistemas, mejorando la productividad y el control de los mismos en un 100%.",
-          "Lidere el desarrollo del Sistema de responsabilidad por usuario, mejorando la automatización de la gestión para la revisión de los bienes y el gasto de papel en un 70%, utilizando las siguientes herramientas PostgreSQL para gestionar la base de datos y poder esquematizar la información y creación de procedimientos almacenados y vistas, haciéndola menos vulnerable, Laravel para gestionar el back-end y front-end.",
-          "Implementé el framework Vue para la gestión de comportamientos de los componentes visuales"
+          "Optimicé la gestión de versiones de sistemas mediante la implementación de Git, mejorando significativamente la productividad y el control de código.",
+          "Administré y diseñé bases de datos PostgreSQL, incluyendo la esquematización de información y la creación de procedimientos almacenados y vistas, fortaleciendo la seguridad y la integridad de los datos.",
+          "Desarrollé soluciones Full Stack utilizando el framework Laravel para la gestión del backend y frontend, contribuyendo a la funcionalidad integral de las aplicaciones web.",
+          "Resolví problemas críticos de arranque en el servicio de calidad SAP, alojado en openSUSE y virtualizado en VMware, asegurando la continuidad operativa del sistema.",
+          "Implementé el framework Vue.js para el desarrollo de la interfaz de usuario, mejorando la interactividad y la experiencia de usuario a través de componentes visuales dinámicos."
         ]
       }
     ]
