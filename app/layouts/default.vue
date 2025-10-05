@@ -3,16 +3,17 @@
     <header
       class="w-full  h-24 flex justify-center p-4 drop-shadow-2xl z-50 fixed bg-opacity-50 backdrop-filter backdrop-blur-lg">
       <div class="w-full flex justify-between items-center max-w-7xl">
-        <img v-if="theme === 'light'" src="/img/logo64x64_light.png" alt="logo">
-        <img v-else src="/img/logo64x64_dark.png" alt="logo">
+        <img v-if="theme === 'light'" class="size-7 md:size-12" src="/img/logo64x64_light.png" alt="logo">
+        <img v-else class="size-7 md:size-12" src="/img/logo64x64_dark.png" alt="logo">
         <nav class="">
-          <ul class="flex items-center gap-4 text-zinc-600 dark:text-white">
-            <li> <switch-theme /> </li>
+          <ul class="flex items-center gap-4 text-zinc-600 text-sm md:text-base dark:text-white">
+            <li> <switch-theme class="w-10 md:w-12" /> </li>
             <li v-for="item in items" :key="item.key">
               <a
 :href="item.to"
                 class="px-2.5 py-2 focus:underline active:underline font-semibold underline-offset-4 hover:underline text-center">
-                {{ item.title }}
+                <span class="hidden md:block">{{ item.title }}</span>
+                <component :is="item.icon" v-if="item.icon" class="w-7 md:hidden" />
               </a>
             </li>
             <li>
@@ -72,6 +73,9 @@ fill="currentColor"
 </template>
 
 <script setup>
+import projectRoadIcon from "~/components/icons/projectRoad.vue"
+import caseIcon from "~/components/icons/case.vue"
+import homeIcon from "~/components/icons/home.vue"
 onBeforeMount(() => {
   useStateMachineStore().inizialiceTheme();
   useStateMachineStore().inizialiceLang();
@@ -83,16 +87,19 @@ const items = ref([
     key: "Inicio",
     title: "Inicio",
     to: "/#me",
+    icon: homeIcon
   },
   {
     key: "Experience",
     title: "Experiencia",
     to: "/#experience",
+    icon: caseIcon
   },
   {
     key: "projects",
     title: "Proyectos",
     to: "/#projects",
+    icon: projectRoadIcon
   },
 ]);
 </script>
