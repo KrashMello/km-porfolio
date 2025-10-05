@@ -10,11 +10,13 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      meta: [
+        { hid: 'description', name: 'description', content: 'Joel Soteldo desarrollador con mas de 5 años de experiencia en el desarrollo web' }
+      ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ],
       title: 'KrashMello | Portfolio',
-      description: 'Portfolio de KrashMello',
       htmlAttrs: {
         lang: 'es',
       }
