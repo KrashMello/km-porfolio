@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full min-h-screen bg-slate-200         dark:bg-slate-800">
+  <div class="transition-color duration-500 ease-in-out w-full min-h-screen bg-slate-200         dark:bg-slate-800">
     <header
-      class="w-full  h-24 flex justify-center p-4 drop-shadow-2xl z-50 fixed bg-opacity-50 backdrop-filter backdrop-blur-lg">
+      class="bottom-0 md:top-0 w-full h-24 flex justify-center p-4 drop-shadow-2xl z-50 fixed bg-opacity-50 backdrop-filter backdrop-blur-lg">
       <div class="w-full flex justify-between items-center max-w-7xl">
         <img v-if="theme === 'light'" class="size-7 md:size-12" src="/img/logo64x64_light.png" alt="logo">
         <img v-else class="size-7 md:size-12" src="/img/logo64x64_dark.png" alt="logo">
@@ -9,16 +9,14 @@
           <ul class="flex items-center gap-4 text-zinc-600 text-sm md:text-base dark:text-white">
             <li> <switch-theme class="w-10 md:w-12" /> </li>
             <li v-for="item in items" :key="item.key">
-              <a
-:href="item.to"
+              <a :href="item.to"
                 class="px-2.5 py-2 focus:underline active:underline font-semibold underline-offset-4 hover:underline text-center">
                 <span class="hidden md:block">{{ item.title }}</span>
                 <component :is="item.icon" v-if="item.icon" class="w-7 md:hidden" />
               </a>
             </li>
             <li>
-              <a
-:href="`/Joel_Soteldo_CV_${lang}.pdf`" aria-label="github"
+              <a :href="`/Joel_Soteldo_CV_${lang}.pdf`" aria-label="github"
                 class="px-2.5 py-2 focus:underline active:underline font-semibold underline-offset-4 hover:underline text-center"
                 target="_blank">
                 CV
@@ -40,8 +38,7 @@
         <div class="w-full flex text-zinc-600 dark:text-white  justify-center gap-3 ">
           <a href="https://www.linkedin.com/in/joel-enrike-soteldo" aria-label="linkedin" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="h-4 w-4" viewBox="0 0 24 24">
-              <path
-fill="currentColor"
+              <path fill="currentColor"
                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
             </svg>
           </a>

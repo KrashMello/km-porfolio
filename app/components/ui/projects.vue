@@ -1,15 +1,15 @@
 <template>
   <section id="projects"
-    class="snap-start w-full min-h-screen h-fit flex px-5 md:px-20 py-32 flex-col justify-center md:justify-start items-start gap-6">
+    class="snap-start w-full min-h-screen h-fit flex px-5 md:px-20 py-16 md:py-32 flex-col justify-center md:justify-start items-start gap-6">
     <header class="w-full max-w-7xl mx-auto h-12 md:h-24 md:py-2 justify-start items-start gap-1">
-      <h2 class=" flex items-center gap-4 text-[#5E81AC] dark:text-[#88C0D0] text-3xl md:text-6xl font-normal">
+      <h2 class=" flex items-center gap-4 text-slate-600 dark:text-slate-200 text-3xl md:text-6xl font-normal">
         Últimos proyectos
         <span>
           <icons-project-road />
         </span>
       </h2>
     </header>
-    <div class="flex flex-wrap gap-5 max-w-7xl w-full mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl w-full mx-auto">
       <km-article v-for="repo in repoData" :key="repo.id" :title="repo.name"
         :href="!!repo.homepage ? repo.homepage : repo.html_url" :description="repo.description">
         <template #footer>
@@ -33,14 +33,14 @@
       </km-article>
     </div>
     <div class="w-full max-w-7xl mx-auto h-12 md:h-24 md:py-2 justify-start items-start gap-1">
-      <h2 class=" flex items-center gap-4 text-[#5E81AC] dark:text-[#88C0D0] text-3xl md:text-6xl font-normal">
+      <h2 class=" flex items-center gap-4 text-slate-600 dark:text-slate-200 text-3xl md:text-6xl font-normal">
         Todos los proyectos
         <span>
           <icons-project-road />
         </span>
       </h2>
     </div>
-    <div class="flex max-w-7xl mx-auto flex-wrap gap-5 w-full">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl w-full mx-auto">
       <km-article title="Kia Landing" href="https://kia-page.vercel.app/kiaSuscripcion"
         description="Landing de suscripcion kia motors ecuador">
         <template #footer>
