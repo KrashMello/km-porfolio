@@ -3,40 +3,75 @@
     "title": "¡Hello World! I'm Joel",
     "description": "A person passionate about web development that always seeks to give the best. I like to help in the growth of others in the technological field, sharing my knowledge. In my free time I enjoy watching videos, listening to music and looking for information about new technologies and advances."
   },
+  "nav": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects"
+  },
   "experience": {
     "title": "Experience",
     "list": [
       {
-        "name": "Alcaldía de Iribarren",
+        "name": "Thundernet C.A.",
         "zone": "Lara, Venezuela",
-        "dateBegin": "May 2022",
-        "dateEnd": "Actualidad",
+        "dateBegin": "Sep 2025",
+        "dateEnd": "Present",
+        "current": true,
         "task": [
-          "I led the development of an asset system, automating inventory management.",
-          "I optimized code version management by implementing Git, improving team productivity and change control.",
-          "I managed and designed PostgreSQL databases, developing schemas, stored procedures, and views to ensure data integrity and security.",
-          "I developed backend microservices with NestJS and frontends with Nuxt.js, ensuring application functionality and performance.",
-          "I implemented an advanced auditing system using database triggers, which optimized system operations monitoring and traceability.",
-          "I applied the Scrum methodology to manage the development cycle, improving efficiency in feature delivery.",
-          "I managed and secured container environments on Fedora servers with Podman (including rootless configuration), ensuring efficient deployment and application security.",
-          "I designed and managed container networks for specific applications, ensuring the scalability and fluid communication of microservices.",
-          "I conducted exhaustive functionality and performance testing, optimizing servers to guarantee high performance and security.",
-          "I implemented and administered a GitLab Community Edition (CE) server on Ubuntu, providing a comprehensive source code management solution for the development team."
+          "I developed Odoo modules for ticket management to address network saturation.",
+          "I managed the development of several Odoo modules for KPI calculations for the sales department.",
+          "I developed REST API communication between two different systems using Odoo modules.",
+          "I developed Odoo modules for ticket management for KPI calculation for the call center, PMO, and Outages departments."
         ]
       },
       {
-        "name": "Lácteos los Andes C.A",
+        "name": "Alcaldía de Iribarren",
         "zone": "Lara, Venezuela",
-        "dateBegin": "Jul 2019",
+        "dateBegin": "Mar 2022",
+        "dateEnd": "Sep 2025",
+        "task": [
+          "I led the development of an asset system, automating inventory management.",
+          "I optimized code version control by implementing Git, improving team productivity.",
+          "I designed and managed PostgreSQL databases, developing schemas, stored procedures, and views.",
+          "I built backend microservices with NestJS and frontends with Nuxt.js.",
+          "I implemented an advanced auditing system using database triggers for better traceability.",
+          "I managed the development cycle using the Scrum methodology.",
+          "I managed container environments on Fedora servers using Podman (rootless).",
+          "I implemented and managed a GitLab Community Edition server on Ubuntu."
+        ]
+      },
+      {
+        "name": "Lácteos Los Andes, C.A.",
+        "zone": "Lara, Venezuela",
+        "dateBegin": "Jan 2020",
         "dateEnd": "Feb 2021",
         "task": [
-          "I optimized system version management by implementing Git, significantly improving productivity and code control.",
-          "I managed and designed PostgreSQL databases, including information schematization and the creation of stored procedures and views, strengthening data security and integrity.",
-          "I developed Full Stack solutions using the Laravel framework for backend and frontend management, contributing to the integral functionality of web applications.",
-          "I resolved critical boot issues in the SAP quality service, hosted on openSUSE and virtualized in VMware, ensuring system operational continuity.",
-          "I implemented the Vue.js framework for user interface development, enhancing interactivity and user experience through dynamic visual components."
+          "I implemented Git for version control, improving productivity.",
+          "I designed and optimized PostgreSQL databases and stored procedures.",
+          "I developed Full Stack solutions using the Laravel framework.",
+          "I resolved critical startup issues for SAP services on openSUSE/VMware.",
+          "I implemented Vue.js for dynamic user interface components."
         ]
       }
     ]
+  },
+  "projects": {
+    "title": "Projects",
+    "elumian": {
+      "title": "Elumian",
+      "description": "Modular framework to build REST APIs quickly and securely with built-in tooling"
+    },
+    "templateCreator": {
+      "title": "Template Creator",
+      "description": "Visual PDF template builder with drag & drop, dynamic data and one-click export"
+    },
+    "kia": {
+      "title": "Kia Landing",
+      "description": "Kia Motors Ecuador subscription landing"
+    }
+  },
+  "a11y": {
+    "toggleTheme": "Toggle between light and dark theme",
+    "selectLang": "Select language"
   }
 }

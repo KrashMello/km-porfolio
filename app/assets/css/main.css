@@ -1,2 +1,94 @@
 @import "tailwindcss";
+
+/* Class-based dark mode: sigue el toggle de <html> del store. No quitar. */
 @custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Paleta Nord — la identidad del ciervo KrashMello */
+  --color-nord-0: #2e3440;
+  --color-nord-1: #3b4252;
+  --color-nord-2: #434c5e;
+  --color-nord-3: #4c566a;
+  --color-nord-4: #d8dee9;
+  --color-nord-5: #e5e9f0;
+  --color-nord-6: #eceff4;
+  --color-nord-7: #8fbcbb;
+  --color-nord-8: #88c0d0;
+  --color-nord-9: #81a1c1;
+  --color-nord-10: #5e81ac;
+  --color-aurora-red: #bf616a;
+  --color-aurora-orange: #d08770;
+  --color-aurora-yellow: #ebcb8b;
+  --color-aurora-green: #a3be8c;
+  --color-aurora-purple: #b48ead;
+
+  /* Semánticas: resuelven a :root/.dark vía var() */
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-content: var(--content);
+  --color-content-muted: var(--content-muted);
+  --color-accent: var(--accent);
+
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --surface: #eceff4;
+  --surface-alt: #d8dee9;
+  --content: #2e3440;
+  --content-muted: #4c566a;
+  --accent: #5e81ac;
+  color-scheme: light;
+}
+
+.dark {
+  --surface: #2e3440;
+  --surface-alt: #3b4252;
+  --content: #e5e9f0;
+  --content-muted: #d8dee9;
+  --accent: #88c0d0;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-content font-sans antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+/* Secuencia de entrada única del hero */
+@keyframes hero-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

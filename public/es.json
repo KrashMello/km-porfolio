@@ -3,40 +3,75 @@
     "title": "¡Hola mundo! Soy Joel",
     "description": "Una persona apasionada por el desarrollo web que busca siempre dar lo mejor. Me gusta ayudar en el crecimiento de las demás en el ámbito tecnológico, compartiendo mi conocimiento. En mis ratos libres disfruto de ver videos, escuchar musica y buscar información sobre las nuevas tecnologías y avances."
   },
+  "nav": {
+    "home": "Inicio",
+    "experience": "Experiencia",
+    "projects": "Proyectos"
+  },
   "experience": {
     "title": "Experiencia",
     "list": [
       {
-        "name": "Alcaldía de Iribarren",
+        "name": "Thundernet C.A.",
         "zone": "Lara, Venezuela",
-        "dateBegin": "May 2022",
+        "dateBegin": "Sep 2025",
         "dateEnd": "Actualidad",
+        "current": true,
         "task": [
-          "Lideré el desarrollo de un sistema de bienes, automatizando la gestión de inventario.",
-          "Optimicé la gestión de versiones de código mediante la implementación de Git, mejorando la productividad y el control de cambios del equipo.",
-          "Administré y diseñé bases de datos PostgreSQL, desarrollando esquemas, procedimientos almacenados y vistas para asegurar la integridad y seguridad de la información.",
-          "Desarrollé microservicios backend con NestJS y frontends con Nuxt.js, asegurando la funcionalidad y rendimiento de las aplicaciones.",
-          "Implementé un sistema de auditoría avanzado usando triggers en base de datos, lo que optimizó la monitorización y trazabilidad de las operaciones del sistema.",
-          "Apliqué la metodología Scrum para gestionar el ciclo de desarrollo, mejorando la eficiencia en la entrega de funcionalidades.",
-          "Administré y aseguré entornos de contenedores en servidores Fedora con Podman (incluyendo configuración rootless), garantizando el despliegue eficiente y la seguridad de las aplicaciones.",
-          "Diseñé y gestioné redes de contenedores para aplicaciones específicas, garantizando la escalabilidad y comunicación fluida de microservicios.",
-          "Realicé pruebas exhaustivas de funcionalidad y rendimiento, optimizando servidores para garantizar un alto desempeño y seguridad.",
-          "Implementé y administré un servidor GitLab Community Edition (CE) en Ubuntu, proporcionando una solución integral de gestión de código fuente para el equipo de desarrollo."
+          "Desarrollé módulos de Odoo para la gestión de tickets para abordar la saturación de la red.",
+          "Gestioné el desarrollo de varios módulos de Odoo para cálculos de KPI para el área de ventas.",
+          "Desarrollé la comunicación de API REST entre dos sistemas diferentes utilizando módulos de Odoo.",
+          "Desarrollé módulos de Odoo para la gestión de tickets para el cálculo de KPI para el área de call center, PMO y Fallas."
         ]
       },
       {
-        "name": "Lácteos los Andes C.A",
+        "name": "Alcaldía de Iribarren",
         "zone": "Lara, Venezuela",
-        "dateBegin": "Jul 2019",
+        "dateBegin": "Mar 2022",
+        "dateEnd": "Sep 2025",
+        "task": [
+          "Lideré el desarrollo de un sistema de activos, automatizando la gestión de inventario.",
+          "Optimicé el control de versiones de código mediante la implementación de Git, mejorando la productividad del equipo.",
+          "Diseñé y administré bases de datos PostgreSQL, desarrollando esquemas, procedimientos almacenados y vistas.",
+          "Construí microservicios backend con NestJS y frontends con Nuxt.js.",
+          "Implementé un sistema de auditoría avanzado utilizando disparadores de base de datos para una mejor trazabilidad.",
+          "Gestioné el ciclo de desarrollo utilizando la metodología Scrum.",
+          "Administré entornos de contenedores en servidores Fedora usando Podman (rootless).",
+          "Implementé y gestioné un servidor GitLab Community Edition en Ubuntu."
+        ]
+      },
+      {
+        "name": "Lácteos Los Andes, C.A.",
+        "zone": "Lara, Venezuela",
+        "dateBegin": "Ene 2020",
         "dateEnd": "Feb 2021",
         "task": [
-          "Optimicé la gestión de versiones de sistemas mediante la implementación de Git, mejorando significativamente la productividad y el control de código.",
-          "Administré y diseñé bases de datos PostgreSQL, incluyendo la esquematización de información y la creación de procedimientos almacenados y vistas, fortaleciendo la seguridad y la integridad de los datos.",
-          "Desarrollé soluciones Full Stack utilizando el framework Laravel para la gestión del backend y frontend, contribuyendo a la funcionalidad integral de las aplicaciones web.",
-          "Resolví problemas críticos de arranque en el servicio de calidad SAP, alojado en openSUSE y virtualizado en VMware, asegurando la continuidad operativa del sistema.",
-          "Implementé el framework Vue.js para el desarrollo de la interfaz de usuario, mejorando la interactividad y la experiencia de usuario a través de componentes visuales dinámicos."
+          "Implementé Git para el control de versiones, mejorando la productividad.",
+          "Diseñé y optimicé bases de datos PostgreSQL y procedimientos almacenados.",
+          "Desarrollé soluciones Full Stack usando el framework Laravel.",
+          "Resolví problemas críticos de inicio para servicios SAP en openSUSE/VMware.",
+          "Implementé Vue.js para componentes de interfaz de usuario dinámicos."
         ]
       }
     ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "elumian": {
+      "title": "Elumian",
+      "description": "Framework modular para crear APIs REST de forma rápida, segura y con herramientas integradas"
+    },
+    "templateCreator": {
+      "title": "Template Creator",
+      "description": "Constructor visual de plantillas PDF con drag & drop, datos dinámicos y exportación en un clic"
+    },
+    "kia": {
+      "title": "Kia Landing",
+      "description": "Landing de suscripción de Kia Motors Ecuador"
+    }
+  },
+  "a11y": {
+    "toggleTheme": "Cambiar entre tema claro y oscuro",
+    "selectLang": "Seleccionar idioma"
   }
 }

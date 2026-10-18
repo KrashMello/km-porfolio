@@ -5,11 +5,18 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
+    '@nuxt/fonts',
     '@pinia/nuxt',
     'pinia-plugin-persistedstate/nuxt',
     '@vercel/analytics',
     '@vercel/speed-insights'
   ],
+  fonts: {
+    defaults: {
+      weights: ['400 700'],
+      subsets: ['latin'],
+    },
+  },
   app: {
     head: {
       meta: [
